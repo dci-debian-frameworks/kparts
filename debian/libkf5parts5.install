@@ -1,3 +1,4 @@
 usr/lib/*/libKF5Parts.so.4*
 usr/share/*
 usr/lib/*/qt5/*
+usr/lib/*/libKF5Parts.so.5
