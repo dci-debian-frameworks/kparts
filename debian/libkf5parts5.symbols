@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4.96.0 amd64
-libKF5Parts.so.4 libkf5parts4 #MINVER#
+libKF5Parts.so.5 libkf5parts5 #MINVER#
  _ZN6KParts10BrowserRun10simpleSaveERK4QUrlRK7QStringP7QWidget@Base 4.96.0
  _ZN6KParts10BrowserRun11handleErrorEP4KJob@Base 4.96.0
  _ZN6KParts10BrowserRun11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
