@@ -23,13 +23,13 @@ Homepage: https://projects.kde.org/projects/frameworks/kparts
 Package: libkf5parts-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5parts4 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5parts5 (= ${binary:Version}), ${misc:Depends}
 Description: development files for kparts
  Framework providing elaborate user-interface components.
  .
  Contains development files for kparts.
  
-Package: libkf5parts4
+Package: libkf5parts5
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
@@ -37,12 +37,12 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Document centric plugin system.
  Framework providing elaborate user-interface components.
 
-Package: libkf5parts4-dbg
+Package: libkf5parts5-dbg
 Priority: extra
 Section: debug
 Architecture: any
 Multi-Arch: same
-Depends: libkf5parts4 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5parts5 (= ${binary:Version}), ${misc:Depends}
 Description: debug symbols for kparts
  Framework providing elaborate user-interface components.
  .
