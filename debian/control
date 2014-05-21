@@ -3,39 +3,49 @@ Section: libs
 Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
-Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
- extra-cmake-modules (>= 0.0.13), qtbase5-dev, xauth, xvfb,
- libkf5i18n-dev (>= 4.99.0), libkf5kjs-dev (>= 4.99.0),
- libkf5guiaddons-dev (>= 4.99.0), libkf5configwidgets-dev (>= 4.99.0),
- libkf5auth-dev (>= 4.99.0), libkf5coreaddons-dev (>= 4.99.0),
- libkf5codecs-dev (>= 4.99.0), libkf5config-dev (>= 4.99.0),
- libkf5dbusaddons-dev (>= 4.99.0), libkf5service-dev (>= 4.99.0),
- libkf5completion-dev (>= 4.99.0), libkf5windowsystem-dev (>= 4.99.0),
- libkf5itemviews-dev (>= 4.99.0), libkf5widgetsaddons-dev (>= 4.99.0), libkf5iconthemes-dev (>= 4.99.0), libkf5solid-dev (>= 4.99.0),
- libkf5globalaccel-dev (>= 4.99.0), libkf5sonnet-dev (>= 4.99.0),
- libkf5bookmarks-dev (>= 4.99.0), libkf5jobwidgets-dev (>= 4.99.0),
- libkf5xmlgui-dev (>= 4.99.0), libkf5textwidgets-dev (>= 4.99.0),
- libkf5notifications-dev (>= 4.99.0), kf5-kio-dev (>= 4.99.0),
- libkf5attica-dev (>= 4.99.0)
+Build-Depends: cmake,
+               debhelper (>= 9.0.0),
+               extra-cmake-modules (>= 0.0.13),
+               kf5-kio-dev (>= 4.99.0),
+               libkf5attica-dev (>= 4.99.0),
+               libkf5auth-dev (>= 4.99.0),
+               libkf5bookmarks-dev (>= 4.99.0),
+               libkf5codecs-dev (>= 4.99.0),
+               libkf5completion-dev (>= 4.99.0),
+               libkf5config-dev (>= 4.99.0),
+               libkf5configwidgets-dev (>= 4.99.0),
+               libkf5coreaddons-dev (>= 4.99.0),
+               libkf5dbusaddons-dev (>= 4.99.0),
+               libkf5globalaccel-dev (>= 4.99.0),
+               libkf5guiaddons-dev (>= 4.99.0),
+               libkf5i18n-dev (>= 4.99.0),
+               libkf5iconthemes-dev (>= 4.99.0),
+               libkf5itemviews-dev (>= 4.99.0),
+               libkf5jobwidgets-dev (>= 4.99.0),
+               libkf5kjs-dev (>= 4.99.0),
+               libkf5notifications-dev (>= 4.99.0),
+               libkf5service-dev (>= 4.99.0),
+               libkf5solid-dev (>= 4.99.0),
+               libkf5sonnet-dev (>= 4.99.0),
+               libkf5textwidgets-dev (>= 4.99.0),
+               libkf5widgetsaddons-dev (>= 4.99.0),
+               libkf5windowsystem-dev (>= 4.99.0),
+               libkf5xmlgui-dev (>= 4.99.0),
+               pkg-kde-tools,
+               qtbase5-dev,
+               xauth,
+               xvfb
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kparts
 
-Package: libkf5parts-dev
+Package: libkf5parts5
 Section: libdevel
 Architecture: any
-Depends: libkf5parts5 (= ${binary:Version}), ${misc:Depends}
-Description: development files for kparts
- Framework providing elaborate user-interface components.
- .
- Contains development files for kparts.
- 
-Package: libkf5parts5
-Architecture: any
-Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Document centric plugin system.
  Framework providing elaborate user-interface components.
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
 
 Package: libkf5parts5-dbg
 Priority: extra
