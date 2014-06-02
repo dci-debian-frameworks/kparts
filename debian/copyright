@@ -2,7 +2,7 @@ Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: kparts
 Source: https://projects.kde.org/projects/frameworks/kparts
 
-Files: *       
+Files: *
 Copyright: © 1999-2005, 2007, 2009-2010 David Faure <faure@kde.org>
            © 1999-2001 Simon Hausmann <hausmann@kde.org>
            © 2010, 2012 Dawit Alemayehu <adawit@kde.org>
@@ -12,7 +12,7 @@ Copyright: © 1999-2005, 2007, 2009-2010 David Faure <faure@kde.org>
            © 2001 Carsten Pfeiffer <pfeiffer@kde.org>
            © 2002 Dominique Devriese <devriese@kde.org>
            © 2010 Sebastian Trueg <trueg@kde.org>
-License: LGPL-2+ 
+License: LGPL-2+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
  License as published by the Free Software Foundation; either
@@ -66,8 +66,8 @@ License: LGPL-2.1+
  License along with this library; if not, write to the Free Software
  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
  02110-1301  USA
-  
-Files: debian/* 
+
+Files: debian/*
 Copyright: 2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
