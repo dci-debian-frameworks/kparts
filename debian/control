@@ -38,6 +38,15 @@ Build-Depends: cmake,
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kparts
 
+Package: libkf5parts-dev
+Section: libdevel
+Architecture: any
+Depends: libkf5parts5 (= ${binary:Version}), ${misc:Depends}
+Description: development files for kparts
+ Framework providing elaborate user-interface components.
+ .
+ Contains development files for kparts.
+
 Package: libkf5parts5
 Section: libdevel
 Architecture: any
