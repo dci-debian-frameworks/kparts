@@ -41,7 +41,11 @@ Homepage: https://projects.kde.org/projects/frameworks/kparts
 Package: libkf5parts-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5parts5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5parts5 (= ${binary:Version}), ${misc:Depends},
+ kf5-kio-dev,
+ libkf5notifications-dev,
+ libkf5textwidgets-dev,
+ libkf5xmlgui-dev
 Description: development files for kparts
  Framework providing elaborate user-interface components.
  .
