@@ -53,7 +53,6 @@ Description: development files for kparts
  Contains development files for kparts.
 
 Package: libkf5parts5
-Section: libdevel
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Document centric plugin system.
