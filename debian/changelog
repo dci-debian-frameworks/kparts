@@ -17,6 +17,8 @@ kparts (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ José Manuel Santamaría Lema ]
   * Build depend on kio-dev instead of kf5-kio-dev.
+  * Create libkf5parts-bin and libkf5parts-data to provide runtime and
+    architecture independent files.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:42:57 +0100
 
