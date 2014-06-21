@@ -63,8 +63,9 @@ Description: Document centric plugin system.
  This package contains the runtime files.
 
 Package: libkf5parts-data
-Architecture: any
+Architecture: all
 Depends: ${misc:Depends}
+Multi-arch: foreign
 Breaks: libkf5parts5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa4)
 Replaces: libkf5parts5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa4)
 Description: Document centric plugin system.
