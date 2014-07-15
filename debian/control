@@ -54,11 +54,9 @@ Description: development files for kparts
  .
  Contains development files for kparts.
 
-Package: libkf5parts-bin
+Package: libkf5parts-plugins
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: libkf5parts5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa4)
-Replaces: libkf5parts5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa4)
 Description: Document centric plugin system.
  Framework providing elaborate user-interface components.
  .
@@ -68,8 +66,6 @@ Package: libkf5parts-data
 Architecture: all
 Depends: ${misc:Depends}
 Multi-arch: foreign
-Breaks: libkf5parts5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa4)
-Replaces: libkf5parts5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa4)
 Description: Document centric plugin system.
  Framework providing elaborate user-interface components.
  .
@@ -77,13 +73,13 @@ Description: Document centric plugin system.
 
 Package: libkf5parts5
 Architecture: any
+Multi-Arch: same
 Depends: libkf5parts-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Recommends: libkf5parts-bin (= ${binary:Version})
+Recommends: libkf5parts-plugins (= ${binary:Version})
 Description: Document centric plugin system.
  Framework providing elaborate user-interface components.
-Multi-Arch: same
 
 Package: libkf5parts5-dbg
 Priority: extra
