@@ -1,4 +1,4 @@
-kparts (5.2.0-0ubuntu1) UNRELEASED; urgency=medium
+kparts (5.2.0-0ubuntu1) utopic; urgency=medium
 
   [ Jonathan Riddell ]
   * New upstream release
@@ -8,7 +8,7 @@ kparts (5.2.0-0ubuntu1) UNRELEASED; urgency=medium
   * Cleanup copyright + move copyright extra details to comment to silence
     space-in-std-shortname-in-dep5-copyright lintian error.  
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 11 Sep 2014 20:45:42 +0000
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 22 Sep 2014 19:44:44 +0200
 
 kparts (5.1.0-0ubuntu1) utopic; urgency=medium
 
