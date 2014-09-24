@@ -37,8 +37,8 @@ Build-Depends: cmake,
                xvfb
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kparts
-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kparts
-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kparts
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/kparts.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kparts.git
 
 Package: libkf5parts-dev
 Section: libdevel
