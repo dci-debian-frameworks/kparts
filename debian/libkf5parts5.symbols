@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.100.0 amd64 i386
+SymbolsHelper-Confirmed: 4.100.0 amd64 i386
 libKF5Parts.so.5 libkf5parts5 #MINVER#
  _ZN6KParts10BrowserRun10simpleSaveERK4QUrlRK7QStringP7QWidget@Base 4.96.0
  _ZN6KParts10BrowserRun11handleErrorEP4KJob@Base 4.96.0
@@ -680,9 +680,3 @@ libKF5Parts.so.5 libkf5parts5 #MINVER#
  (c++)"virtual thunk to KParts::Plugin::~Plugin()@Base" 4.96.0
  (c++)"virtual thunk to KParts::ReadOnlyPart::~ReadOnlyPart()@Base" 4.96.0
  (c++)"virtual thunk to KParts::ReadWritePart::~ReadWritePart()@Base" 4.96.0
-notepadpart.so libkf5parts5 #MINVER#
- qt_plugin_instance@Base 4.100.0
- qt_plugin_query_metadata@Base 4.100.0
-spellcheckplugin.so libkf5parts5 #MINVER#
- qt_plugin_instance@Base 4.100.0
- qt_plugin_query_metadata@Base 4.100.0
