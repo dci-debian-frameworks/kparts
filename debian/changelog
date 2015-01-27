@@ -1,3 +1,9 @@
+kparts (5.6.0-1~) UNRELEASED; urgency=medium
+
+  * Prepare initial Debian release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 27 Jan 2015 22:41:16 +0100
+
 kparts (5.6.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
