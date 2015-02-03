@@ -1,3 +1,3 @@
 version=3
-http://download.kde.org/unstable/frameworks/([\d\.]*)/kparts-(.*)\.tar\.xz
-http://download.kde.org/stable/frameworks/([\d\.]*)/kparts-(.*)\.tar\.xz
+http://download.kde.org/unstable/frameworks/([\d.]+)/kparts-([\d.]+)\.tar\.xz
+http://download.kde.org/stable/frameworks/([\d.]+)/kparts-([\d.]+)\.tar\.xz

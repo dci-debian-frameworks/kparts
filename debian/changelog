@@ -7,6 +7,7 @@ kparts (5.6.0-1~) UNRELEASED; urgency=medium
   * Add basic autopkgtests support.
   * Update copyright information.
   * Update install files.
+  * Update watch file.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 27 Jan 2015 22:41:16 +0100
 
