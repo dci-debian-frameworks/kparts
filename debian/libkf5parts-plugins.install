@@ -1,1 +1,2 @@
-usr/lib/*/qt5/plugins/
+usr/lib/*/qt5/plugins/notepadpart.so
+usr/lib/*/qt5/plugins/spellcheckplugin.so

@@ -1,1 +1,5 @@
-usr/share/*
+usr/share/kservicetypes5/browserview.desktop
+usr/share/kservicetypes5/kpart.desktop
+usr/share/kservicetypes5/krop.desktop
+usr/share/kservicetypes5/krwp.desktop
+usr/share/locale/*/*/kparts5.mo
