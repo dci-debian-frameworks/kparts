@@ -1,5 +1,7 @@
 kparts (5.12.0-2) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Really fix the symbols file for kfreebsd.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 31 Jul 2015 06:48:28 +0200
 
