@@ -1,4 +1,4 @@
-kparts (5.13.0-1~) UNRELEASED; urgency=medium
+kparts (5.13.0-1) unstable; urgency=medium
 
   [ Pino Toscano ]
   * Really fix the symbols file for kfreebsd.
@@ -6,7 +6,7 @@ kparts (5.13.0-1~) UNRELEASED; urgency=medium
   [ Maximiliano Curia ]
   * New upstream release (5.13.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 31 Aug 2015 21:27:17 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Sep 2015 00:17:20 +0200
 
 kparts (5.12.0-1) unstable; urgency=medium
 
