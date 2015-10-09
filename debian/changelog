@@ -1,8 +1,8 @@
-kparts (5.15.0-1~) UNRELEASED; urgency=medium
+kparts (5.15.0-1) unstable; urgency=medium
 
   * New upstream release (5.15.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 05 Oct 2015 15:06:38 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 09 Oct 2015 19:16:40 +0200
 
 kparts (5.14.0-1) unstable; urgency=medium
 
