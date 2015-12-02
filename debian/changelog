@@ -1,3 +1,15 @@
+kparts (5.16.0-1) unstable; urgency=medium
+
+  * New upstream release (5.16.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 30 Nov 2015 12:12:40 +0100
+
+kparts (5.15.0-1) unstable; urgency=medium
+
+  * New upstream release (5.15.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 09 Oct 2015 19:16:40 +0200
+
 kparts (5.15.0-0ubuntu2) xenial; urgency=medium
 
   * Fix autopackagetests by adding allow-stderr to the requirements.
@@ -14,17 +26,39 @@ kparts (5.15.0-0ubuntu1) wily; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 07 Oct 2015 13:54:10 +0100
 
+kparts (5.14.0-1) unstable; urgency=medium
+
+  * New upstream release (5.14.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 15 Sep 2015 13:49:41 +0200
+
 kparts (5.14.0-0ubuntu1) wily; urgency=medium
 
   * new upstream release
 
  -- Clive Johnston <clivejo@aol.com>  Thu, 17 Sep 2015 13:24:28 +0100
 
+kparts (5.13.0-1) unstable; urgency=medium
+
+  [ Pino Toscano ]
+  * Really fix the symbols file for kfreebsd.
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.13.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Sep 2015 00:17:20 +0200
+
 kparts (5.13.0-0ubuntu1) wily; urgency=medium
 
   * new upstream release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 10 Aug 2015 13:27:16 +0200
+
+kparts (5.12.0-1) unstable; urgency=medium
+
+  * New upstream release (5.12.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 09 Jul 2015 12:43:56 +0200
 
 kparts (5.12.0-0ubuntu1) wily; urgency=medium
 
