@@ -6,6 +6,9 @@ kparts (5.18.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Philip Muškovac ]
   * New upstream release
 
+  [ Clive Johnston ]
+  * Adding new build dep libkf5kiogui5-dev
+
  -- Philip Muškovac <yofel@kubuntu.org>  Wed, 06 Jan 2016 15:06:22 +0100
 
 kparts (5.16.0-1) unstable; urgency=medium
