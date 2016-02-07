@@ -67,14 +67,3 @@ Depends: libkf5parts-data (= ${source:Version}),
 Recommends: libkf5parts-plugins (= ${binary:Version})
 Description: Document centric plugin system.
  Framework providing elaborate user-interface components.
-
-Package: libkf5parts5-dbg
-Priority: extra
-Section: debug
-Architecture: any
-Multi-Arch: same
-Depends: libkf5parts5 (= ${binary:Version}), ${misc:Depends}
-Description: debug symbols for kparts
- Framework providing elaborate user-interface components.
- .
- Contains debug symbols for kparts.
