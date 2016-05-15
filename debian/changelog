@@ -1,6 +1,6 @@
-kparts (5.21.0-1~1.gbpb77bbb) UNRELEASED; urgency=medium
+kparts (5.22.0-1~1.gbp02287f) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @b77bbb527cb8e222aa653d0707ae0903b2bf449f **
+  ** SNAPSHOT build @02287f94df695ac97fd7041512992bae71fb8165 **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -9,6 +9,8 @@ kparts (5.21.0-1~1.gbpb77bbb) UNRELEASED; urgency=medium
   * debian/control: Update Vcs-Browser and Vcs-Git fields
 
   [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 3.9.8
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
@@ -21,7 +23,7 @@ kparts (5.21.0-1~1.gbpb77bbb) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 09:44:25 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 16:44:24 +0200
 
 kparts (5.19.0-1) experimental; urgency=medium
 
