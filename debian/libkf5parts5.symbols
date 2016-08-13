@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.100.0 amd64 i386
+# SymbolsHelper-Confirmed: 5.24.0 amd64 armhf i386
 libKF5Parts.so.5 libkf5parts5 #MINVER#
  _ZN6KParts10BrowserRun10simpleSaveERK4QUrlRK7QStringP7QWidget@Base 4.96.0
  _ZN6KParts10BrowserRun11handleErrorEP4KJob@Base 4.96.0
@@ -35,6 +35,7 @@ libKF5Parts.so.5 libkf5parts5 #MINVER#
  _ZN6KParts10MainWindow17configureToolbarsEv@Base 4.96.0
  _ZN6KParts10MainWindow20saveNewToolbarConfigEv@Base 4.96.0
  _ZN6KParts10MainWindow20slotSetStatusBarTextERK7QString@Base 4.96.0
+ _ZN6KParts10MainWindow22setWindowTitleHandlingEb@Base 5.24.0
  _ZN6KParts10MainWindow9createGUIEPNS_4PartE@Base 4.96.0
  _ZN6KParts10MainWindowC1EP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 4.96.0
  _ZN6KParts10MainWindowC2EP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 4.96.0
