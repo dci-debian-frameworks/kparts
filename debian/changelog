@@ -1,10 +1,12 @@
-kparts (5.24.0-1~1.gbpe0d1cf) UNRELEASED; urgency=medium
+kparts (5.25.0-1~1.gbpc9c4af) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @e0d1cf385db63ab0b4bf1617f04b5ffb45d3b585 **
+  ** SNAPSHOT build @c9c4afee688ebc5d3c848ca8795c9ae63bbc2fc1 **
 
   * Update build-deps and deps with the info from cmake
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files.
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 09 Jul 2016 16:44:24 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 13 Aug 2016 10:44:12 +0200
 
 kparts (5.23.0-1) unstable; urgency=medium
 
