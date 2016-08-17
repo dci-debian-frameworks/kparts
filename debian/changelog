@@ -1,12 +1,18 @@
-kparts (5.25.0-1~1.gbpc9c4af) UNRELEASED; urgency=medium
+kparts (5.25.0-1~2.gbp4ae070) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @4ae070345ad97636ad9912ee7e07717331965d31 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @c9c4afee688ebc5d3c848ca8795c9ae63bbc2fc1 **
 
   * Update build-deps and deps with the info from cmake
   * Update build-deps and deps with the info from cmake
   * Update symbols files.
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 13 Aug 2016 10:44:12 +0200
+  [ Maximiliano Curia ]
+  * Bump group breaks (5.25)
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 17 Aug 2016 22:44:14 +0200
 
 kparts (5.23.0-1) unstable; urgency=medium
 
