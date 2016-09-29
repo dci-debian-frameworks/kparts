@@ -1,10 +1,12 @@
-kparts (5.26.0-1~1.gbpbf6541) UNRELEASED; urgency=medium
+kparts (5.26.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @bf65413ca71f3d8db9bea50280a5d0aa88ea0558 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 10 Sep 2016 15:04:29 +0200
+  [ Maximiliano Curia ]
+  * Bump group breaks (5.26)
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Sep 2016 12:02:12 +0200
 
 kparts (5.25.0-1) unstable; urgency=medium
 
