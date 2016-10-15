@@ -41,11 +41,11 @@ Description: development files for kparts
  Framework providing elaborate user-interface components.
  .
  Contains development files for kparts.
-Breaks: kross-dev (<< 5.26),
-        libkf5kdelibs4support-dev (<< 5.26),
-        libkf5khtml-dev (<< 5.26),
-        libkf5mediaplayer-dev (<< 5.26),
-        libkf5texteditor-dev (<< 5.26)
+Breaks: kross-dev (<< 5.27),
+        libkf5kdelibs4support-dev (<< 5.27),
+        libkf5khtml-dev (<< 5.27),
+        libkf5mediaplayer-dev (<< 5.27),
+        libkf5texteditor-dev (<< 5.27)
 
 Package: libkf5parts-plugins
 Architecture: any
@@ -73,11 +73,11 @@ Depends: libkf5parts-data (= ${source:Version}),
 Recommends: libkf5parts-plugins (= ${binary:Version})
 Description: Document centric plugin system.
  Framework providing elaborate user-interface components.
-Breaks: kross (<< 5.26),
-        libkf5kdelibs4support5 (<< 5.26),
-        libkf5khtml-bin (<< 5.26),
-        libkf5khtml5 (<< 5.26),
-        libkf5krossui5 (<< 5.26),
-        libkf5mediaplayer5 (<< 5.26),
-        libkf5texteditor5 (<< 5.26),
-        libkf5webkit5 (<< 5.26)
+Breaks: kross (<< 5.27),
+        libkf5kdelibs4support5 (<< 5.27),
+        libkf5khtml-bin (<< 5.27),
+        libkf5khtml5 (<< 5.27),
+        libkf5krossui5 (<< 5.27),
+        libkf5mediaplayer5 (<< 5.27),
+        libkf5texteditor5 (<< 5.27),
+        libkf5webkit5 (<< 5.27)
