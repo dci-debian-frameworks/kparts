@@ -1,3 +1,11 @@
+kparts (5.28.0-1~1.gbpa562e7) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @a562e758ff344b0c752ad7dbe57dbbae84e05c3c **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 15 Nov 2016 16:44:55 +0100
+
 kparts (5.27.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
