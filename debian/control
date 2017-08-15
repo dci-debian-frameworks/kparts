@@ -69,6 +69,7 @@ Description: Document centric plugin system (documentation)
  Framework providing elaborate user-interface components.
  .
  This package contains the qch documentation files.
+Section: doc
 
 Package: libkf5parts-plugins
 Architecture: any
