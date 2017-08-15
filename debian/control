@@ -5,7 +5,9 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 3.0~),
                debhelper (>= 9),
+               doxygen,
                extra-cmake-modules (>= 5.37.0~),
+               graphviz,
                kio-dev (>= 5.26.0~),
                libkf5config-dev (>= 5.37.0~),
                libkf5coreaddons-dev (>= 5.37.0~),
@@ -19,41 +21,16 @@ Build-Depends: cmake (>= 3.0~),
                libkf5textwidgets-dev (>= 5.37.0~),
                libkf5widgetsaddons-dev (>= 5.37.0~),
                libkf5xmlgui-dev (>= 5.37.0~),
+               libqt5sql5-sqlite,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.7.0~),
+               qttools5-dev-tools,
                xauth,
-               xvfb
+               xvfb,
 Standards-Version: 4.0.0
 Homepage: https://projects.kde.org/projects/frameworks/kparts
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kparts.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kparts.git
-
-Package: libkf5parts-dev
-Section: libdevel
-Architecture: any
-Depends: kio-dev (>= 5.26.0~),
-         libkf5notifications-dev (>= 5.15.0~),
-         libkf5parts5 (= ${binary:Version}),
-         libkf5textwidgets-dev (>= 5.37.0~),
-         libkf5xmlgui-dev (>= 5.37.0~),
-         ${misc:Depends}
-Description: development files for kparts
- Framework providing elaborate user-interface components.
- .
- Contains development files for kparts.
-Breaks: kross-dev (<< 5.37),
-        libkf5kdelibs4support-dev (<< 5.37),
-        libkf5khtml-dev (<< 5.37),
-        libkf5mediaplayer-dev (<< 5.37),
-        libkf5texteditor-dev (<< 5.37)
-
-Package: libkf5parts-plugins
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Document centric plugin system.
- Framework providing elaborate user-interface components.
- .
- This package contains the runtime files.
 
 Package: libkf5parts-data
 Architecture: all
@@ -64,15 +41,49 @@ Description: Document centric plugin system.
  .
  This package contains the data files.
 
+Package: libkf5parts-dev
+Section: libdevel
+Architecture: any
+Depends: kio-dev (>= 5.26.0~),
+         libkf5notifications-dev (>= 5.15.0~),
+         libkf5parts5 (= ${binary:Version}),
+         libkf5textwidgets-dev (>= 5.37.0~),
+         libkf5xmlgui-dev (>= 5.37.0~),
+         ${misc:Depends},
+Breaks: kross-dev (<< 5.37),
+        libkf5kdelibs4support-dev (<< 5.37),
+        libkf5khtml-dev (<< 5.37),
+        libkf5mediaplayer-dev (<< 5.37),
+        libkf5texteditor-dev (<< 5.37),
+Recommends: libkf5parts-doc (= ${source:Version})
+Description: development files for kparts
+ Framework providing elaborate user-interface components.
+ .
+ Contains development files for kparts.
+
+Package: libkf5parts-doc
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: Document centric plugin system (documentation)
+ Framework providing elaborate user-interface components.
+ .
+ This package contains the qch documentation files.
+
+Package: libkf5parts-plugins
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Document centric plugin system.
+ Framework providing elaborate user-interface components.
+ .
+ This package contains the runtime files.
+
 Package: libkf5parts5
 Architecture: any
 Multi-Arch: same
 Depends: libkf5parts-data (= ${source:Version}),
          ${misc:Depends},
-         ${shlibs:Depends}
-Recommends: libkf5parts-plugins (= ${binary:Version})
-Description: Document centric plugin system.
- Framework providing elaborate user-interface components.
+         ${shlibs:Depends},
 Breaks: kross (<< 5.37),
         libkf5kdelibs4support5 (<< 5.37),
         libkf5khtml-bin (<< 5.37),
@@ -80,4 +91,7 @@ Breaks: kross (<< 5.37),
         libkf5krossui5 (<< 5.37),
         libkf5mediaplayer5 (<< 5.37),
         libkf5texteditor5 (<< 5.37),
-        libkf5webkit5 (<< 5.37)
+        libkf5webkit5 (<< 5.37),
+Recommends: libkf5parts-plugins (= ${binary:Version})
+Description: Document centric plugin system.
+ Framework providing elaborate user-interface components.
