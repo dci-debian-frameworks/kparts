@@ -10,4 +10,4 @@ override_dh_strip:
 	$(overridden_command) --dbgsym-migration='libkf5parts5-dbg (<= 5.19.0-1~~)'
 
 override_dh_auto_test:
-	xvfb-run -a $(overridden_command)
+	xvfb-run -a --server-args="-screen 0 1024x768x24+32" $(overridden_command)
