@@ -258,19 +258,6 @@ kparts (5.18.0-1) experimental; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 13:34:23 +0100
 
-kparts (5.18.0-0ubuntu1) UNRELEASED; urgency=medium
-
-  [ Scarlett Clark ]
-  * New upstream release Xenial
-
-  [ Philip Muškovac ]
-  * New upstream release
-
-  [ Clive Johnston ]
-  * Adding new build dep libkf5kiogui5-dev
-
- -- Philip Muškovac <yofel@kubuntu.org>  Wed, 06 Jan 2016 15:06:22 +0100
-
 kparts (5.16.0-1) unstable; urgency=medium
 
   * New upstream release (5.16.0).
@@ -337,7 +324,7 @@ kparts (5.12.0-0ubuntu1) wily; urgency=medium
 
   * New upstream release
   *  Fix merge.
-  * Vivid backport. 
+  * Vivid backport.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 03 Aug 2015 15:51:04 +0200
 
@@ -440,7 +427,7 @@ kparts (5.2.0-0ubuntu1) utopic; urgency=medium
 
   [ Scarlett Clark ]
   * Cleanup copyright + move copyright extra details to comment to silence
-    space-in-std-shortname-in-dep5-copyright lintian error.  
+    space-in-std-shortname-in-dep5-copyright lintian error.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 22 Sep 2014 19:44:44 +0200
 
