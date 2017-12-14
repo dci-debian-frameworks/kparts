@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.24.0 amd64 armhf i386
+# SymbolsHelper-Confirmed: 5.41.0 amd64
 libKF5Parts.so.5 libkf5parts5 #MINVER#
  _ZN6KParts10BrowserRun10simpleSaveERK4QUrlRK7QStringP7QWidget@Base 4.96.0
  _ZN6KParts10BrowserRun11handleErrorEP4KJob@Base 4.96.0
@@ -95,7 +95,6 @@ libKF5Parts.so.5 libkf5parts5 #MINVER#
  _ZN6KParts11PartManagerD0Ev@Base 4.96.0
  _ZN6KParts11PartManagerD1Ev@Base 4.96.0
  _ZN6KParts11PartManagerD2Ev@Base 4.96.0
- _ZN6KParts12OpenUrlEvent19OpenUrlEventPrivate17s_strOpenUrlEventE@Base 4.96.0
  _ZN6KParts12OpenUrlEvent4testEPK6QEvent@Base 4.96.0
  _ZN6KParts12OpenUrlEventC1EPNS_12ReadOnlyPartERK4QUrlRKNS_16OpenUrlArgumentsERKNS_16BrowserArgumentsE@Base 4.96.0
  _ZN6KParts12OpenUrlEventC2EPNS_12ReadOnlyPartERK4QUrlRKNS_16OpenUrlArgumentsERKNS_16BrowserArgumentsE@Base 4.96.0
@@ -240,7 +239,6 @@ libKF5Parts.so.5 libkf5parts5 #MINVER#
  _ZN6KParts16BrowserExtension19setBrowserInterfaceEPNS_16BrowserInterfaceE@Base 4.96.0
  _ZN6KParts16BrowserExtension20resizeTopLevelWidgetEii@Base 4.96.0
  _ZN6KParts16BrowserExtension21openUrlRequestDelayedERK4QUrlRKNS_16OpenUrlArgumentsERKNS_16BrowserArgumentsE@Base 4.96.0
- _ZN6KParts16BrowserExtension23BrowserExtensionPrivate19createActionSlotMapEv@Base 4.96.0
  _ZN6KParts16BrowserExtension25setURLDropHandlingEnabledEb@Base 4.96.0
  _ZN6KParts16BrowserExtension29slotEmitOpenUrlRequestDelayedEv@Base 4.96.0
  _ZN6KParts16BrowserExtension7xOffsetEv@Base 4.96.0
