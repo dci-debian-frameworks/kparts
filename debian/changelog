@@ -1,3 +1,9 @@
+kparts (5.41.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (5.41.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 14 Dec 2017 08:19:39 -0300
+
 kparts (5.41.0-0neon) xenial; urgency=medium
 
   * New release
@@ -15,12 +21,6 @@ kparts (5.39.0-0neon) xenial; urgency=medium
   * New release
 
  -- Neon CI <neon@kde.org>  Sun, 15 Oct 2017 11:45:36 +0000
-
-kparts (5.38.0-1~) UNRELEASED; urgency=medium
-
-  * New upstream release (5.38.0).
-
- -- Maximiliano Curia <maxy@debian.org>  Mon, 18 Sep 2017 16:52:50 +0200
 
 kparts (5.38.0-0neon) xenial; urgency=medium
 
