@@ -8,7 +8,6 @@ Build-Depends: cmake (>= 3.0~),
                doxygen,
                extra-cmake-modules (>= 5.41.0~),
                graphviz,
-               kio-dev (>= 5.26.0~),
                libkf5config-dev (>= 5.41.0~),
                libkf5coreaddons-dev (>= 5.41.0~),
                libkf5i18n-dev (>= 5.41.0~),
@@ -44,7 +43,7 @@ Description: Document centric plugin system.
 Package: libkf5parts-dev
 Section: libdevel
 Architecture: any
-Depends: kio-dev (>= 5.26.0~),
+Depends: libkf5kio-dev (>= 5.26.0~),
          libkf5notifications-dev (>= 5.15.0~),
          libkf5parts5 (= ${binary:Version}),
          libkf5textwidgets-dev (>= 5.41.0~),
